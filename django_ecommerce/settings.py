@@ -143,3 +143,6 @@ AUTH_USER_MODEL = "accounts.Account"
 # Media files configuration
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+# Settings about Pagination
+NUMBER_OF_ITEMS_PER_PAGE = 3
